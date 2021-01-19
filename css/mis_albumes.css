@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Cursiva";
+    src: url("fonts/Sofia-Regular.ttf") format("truetype");
+}
+
+#galeria {
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    color: cornsilk;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+#galeria div {
+    font-size: 10vh;
+    width: 42vh;
+    margin-right: 2%;
+    height: 30vh;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#galeria img {
+    width: 100%;
+    max-height: fit-content;
+    height: 95%;
+    object-fit: cover;
+    
+}
+
+p a {
+    width: 80%;
+    height: 8vh;
+    padding: 3%;
+    font-size: 3vh;
+    font-family: "Cursiva";
+    color: cornsilk;
+    background-color: rgba(224, 170, 226, 0.1);
+    text-align: center;
+}
+
+p {
+    display: flex;
+    padding: 3%;
+    font-size: 3vh;
+    font-family: "Cursiva";
+    color: brown;
+    background-color: rgba(224, 170, 226, 0.8);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+p img {
+    margin-right: 3%;
+    display: flex;
+    align-self: left;
+}

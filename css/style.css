@@ -1,0 +1,303 @@
+
+    * {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Cursiva";
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 800px) {
+  
+.tablaU td, .tablaU th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-bottom: 8px;
+  font-size:  12px;
+  }
+
+ 
+
+
+
+.aliasb input[type=text] {
+  width: 100%;
+ 
+}
+
+.aliasb input[type=submit] {
+  
+  width: 100;
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+  
+.tablaU td, .tablaU th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+}
+
+/**estilo de formularios **/
+
+input[type=text] {
+ font-family: "Cursiva";
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px; 
+}
+
+input[type= select] {
+ font-family: "Cursiva";
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px; 
+}
+
+
+input[type=text-area]{
+ font-family: "Cursiva";
+  width: 95%;
+  height: 60px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px; 
+}
+
+
+
+input[type=email] {
+  font-family: "Cursiva";
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px; 
+}
+
+input[type=password] {
+  font-family: "Cursiva";
+   width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 20px; 
+}
+ 
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px; 
+  width: auto;
+}
+
+
+.btncancelar {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px; 
+  text-decoration: none;
+  width: auto;
+}
+ 
+.formulario{
+
+  margin:  auto;
+  font-family: "Cursiva";
+  width: 50%; 
+  padding: 20px;
+  align-self: center;
+ background-color:rgba(95, 158, 160, 0.5);
+ color: rgb(224, 218, 218);
+  font-size: 30px;  
+}
+
+.formulario_reg{
+
+ margin:  auto;
+font-family: "Cursiva";
+ width: 50%;  
+padding: 20px;
+align-self: center;
+background-color:rgba(95, 158, 160, 0.5);
+color: rgb(224, 218, 218);
+font-size: 20px;  
+            
+}
+
+.formulario_p{
+  margin:  auto;
+  font-family: "Cursiva";
+   width: 80%; 
+  padding: 20px;
+  align-self: center;
+  background-color:rgba(95, 158, 160, 0.5);
+  color: rgb(224, 218, 218);
+   font-size: 20px;
+   display: block;
+   
+            
+}
+
+.inicio{
+    font-family: "Cursiva";
+    color: rgb(224, 218, 218);
+    max-width:auto; 
+    text-align: center;
+     background-color: rgb(95, 158, 160);
+    height: auto;
+    
+
+}
+.botones{
+  align-self: center;
+  font-family: "Cursiva";
+    color: rgb(224, 218, 218);
+    max-width:auto; 
+    text-align: center;
+    text-decoration: blink;
+    height: auto;
+    font-size: 18px;
+    padding: 12px;
+}
+
+input[type=file]{
+  font-family: "Cursiva";
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px; 
+  width: 80%;
+}
+
+.aliasb{ 
+
+  font-family: "Cursiva";
+  width: 100%;
+  padding: 12px;
+  font-size: 18px; 
+  align-content: center;
+  display: block;
+ 
+}
+
+.aliasb label {
+ font-family: "Cursiva";
+  width: 20%;
+  border-radius: 4px;
+  font-size: 20px; 
+}
+
+
+.aliasb input[type=text] {
+ font-family: "Cursiva";
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px; 
+}
+
+.aliasb input[type=submit] {
+  background-color: DodgerBlue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: auto;
+  font-size: 18px; 
+  width: auto;
+}
+
+
+
+.tablaU{
+  
+align-content: center;
+  width:100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+
+.tablaU td, .tablaU th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-bottom: 8px;
+ 
+
+  }
+
+
+
+.tablaU th {
+  background-color: rgb(95, 158, 160);
+  color: rgb(224, 218, 218);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  
+}
+
+.btnAgregarFotos {
+  background-color:DodgerBlue ;
+  color: white;
+  margin:  auto;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px; 
+  text-decoration: none;
+ width: 110px;
+  display: block;
+}
+
+
+.btnEliminar {
+  background-color:red ;
+  color: white;
+  padding: 5px 10px;
+  margin:  auto;
+  border-radius: 4px;
+  font-size: 13px; 
+  text-decoration: none;
+  width: 110px;
+  display: block;
+}
+
+
+.btnTodos {
+  background-color:SlateBlue ;
+  color: white;
+  padding: 5px 10px;
+  margin:  auto;
+  border-radius: 4px;
+  font-size: 13px; 
+  text-decoration: none;
+   width: 120px;
+   display: block;
+}
+
+
