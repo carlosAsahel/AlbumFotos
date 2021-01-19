@@ -1,0 +1,52 @@
+
+#Principal{
+    width: 80vw;
+    min-height: 87vh;
+   margin:  auto;
+   padding-top: 5.7%;
+
+}
+#Imagenes{
+    width: 100%;
+    height: 88vh;
+    background-color: rgba(95, 158, 160, 0.2);
+    overflow-y: auto;
+    
+}
+#Imagenes figure button{
+  width: 18%;
+  background-color:rgba(255, 255, 255, 0);
+  text-decoration: none;
+  border: none;
+  position: absolute;
+  left: 3%;
+  border-radius: 50%;
+
+}
+#Imagenes button:hover,
+#Imagenes button:active{
+    background-color: rgba(112, 46, 46, 0.74);
+border-color: rgba(139, 27, 27, 0.876);
+
+}
+#Imagenes figure button img{
+ width: 100%;
+ height: 6%;
+}
+#Imagenes figure{
+    position: relative;
+    width: 20%;
+    float: left;
+    margin: 1.5% 1%;
+    padding: .7%;
+    border: .6vh solid rgba(230,230,230,.8);
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#Imagenes figure img{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
