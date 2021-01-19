@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: "Cursiva";
+    src: url("fonts/Sofia-Regular.ttf") format("truetype");
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    z-index: 10;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    font-family: "Cursiva";
+    color: rgb(224, 218, 218);
+    top: 0;
+    position: relative;
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    z-index: 5;
+}
+
+header img {
+    box-sizing: border-box;
+    height: 7vh;
+    margin-right: 2vh;
+    margin-left: 3vh;
+}
+
+header div {
+    background-color: rgb(95, 158, 160);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo {
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+
+#Titulo h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#btn_opciones {
+    display: none;
+}
+#Usuario{
+
+    position: relative;
+    
+    }
+a{
+    color: white;
+}
+
+/* menus desplegables -----------------------------------------------------------------------*/
+/*principal--------------------------------------------*/
+#menu{
+    width: 20vw;
+    height: 95vh;
+    position: relative;
+    background-color:rgba(95, 158, 160, 0.7);
+    left: -20vw;
+    transition: left 1s ease-in-out;
+    font-family: "Cursiva";
+    border-radius: 10px;
+    top: 100%;
+    position: absolute;
+    
+    }
+    #menu img{
+        width: 100%;
+        margin: auto;
+    }
+    #menu label{
+        width: 15%;
+        position: absolute;
+        left: 102%;
+        top: 45%;
+    }
+    #menu li{
+        list-style: none;
+       border-bottom: solid rgb(95, 158, 160);
+       padding: 5% 5%;
+       color: white;
+    }
+    
+    #btn_menu{
+      display: none;
+    }
+    #btn_menu:checked ~ #menu { /*buca el id menu, menu tiene que estar despues de btn menu para que lo pueda encontrar*/
+      
+         left: 0vw;
+    
+    }
+    /* menu secundario------------------------------------------------------------------*/
+    #opciones{
+        background-color:rgba(95, 158, 160, 0.7) ;
+        position: absolute;
+        width: 10vw;
+        right: -10vw;
+        top: 100%;
+        transition: right .5s ease-in-out;
+        border-radius: 5px;
+    }
+    #opciones li{
+        list-style: none;
+        border-bottom: solid rgb(228, 228, 228);
+        padding: 4% 10%;
+        border-radius: 5px;
+    }
+    #btn_opciones:checked ~ #opciones{
+        right: 0vw;
+    }
+    
+    
+    
+    
+    
