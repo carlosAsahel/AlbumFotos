@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "Cursiva";
+    src: url("fonts/Sofia-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Cursiva";
+}
+
+h1 {
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 3vh;
+}
+
+#featured_information {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#featured_information article {
+    flex-flow: wrap;
+    display: flex;
+    padding: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(255, 235, 205, 0.8);
+}
+
+#featured_information p {
+    text-align: justify;
+    padding: 5%;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+#featured_information p:hover {
+    background-image: repeating-linear-gradient(45deg, rgb(216, 110, 159), rgb(236, 226, 132), rgb(120, 165, 218) 10px);
+    font-size: 140%;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.95;
+}
+
+#featured_information img {
+    width: 40%;
+}
+
+#crea_tu_album {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#crea_tu_album article {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 248, 220);
+    opacity: 0.8;
+}
+
+#crea_tu_album ul {
+    margin-top: 5%;
+    list-style: none;
+    font-size: 3vh;
+    width: 100%;
+}
+
+#crea_tu_album li {
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#crea_tu_album li:hover {
+    background-image: repeating-radial-gradient(circle farthest-corner at left, rgb(216, 110, 159), rgb(236, 226, 132)3px, rgb(120, 165, 218) 5px);
+    font-size: 115%;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    opacity: 0.8;
+}
+
+i {
+    background-color: rgba(212, 31, 85, 0.3);
+    border-radius: 100%;
+    padding: 1.5%;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+#imagenes {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#im1 {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(255, 248, 220);
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+#columna1 {
+    display: inline;
+    width: 100%;
+    height: 50vh;
+}
+
+#columna1 img {
+    width: 40%;
+    height: 50vh;
+}
+
+#columna1 img:nth-child(1) {
+    margin-right: 18%;
+}
+
+#columna1 img:nth-child(1):hover {
+    transform: rotateX(50deg) rotateY(15deg);
+}
+
+#columna1 img:nth-child(2):hover {
+    transform: rotateX(-50deg) rotateY(15deg);
+}
+
+#columna2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#columna2 img {
+    width: 60%;
+}
+
+#columna2 img:hover {
+    transform: scale3d(1.25, 1.25, 4) translateZ(10px);
+}
+
+#contacto {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#contacto article {
+    background-image: url(../css/img/index2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 10vh;
+    color: rgb(196, 66, 34);
+}
+
+#contacto h1 {
+    font-size: 5vh;
+}
+
+#contacto p {
+    box-sizing: border-box;
+    font-size: 10vh;
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
